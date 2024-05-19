@@ -1,0 +1,3 @@
+# The cron job looks like this:  
+
+0 9 * * * {path to main directory}/mail.sh >> {path to main directory}/cron_log.log 2>&1
